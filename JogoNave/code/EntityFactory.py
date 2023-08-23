@@ -1,10 +1,10 @@
 #!/usr/bin/python
 #-*- coding: utf-8 -*-
 
-class Game:
+class EntityFactory:
     def __init__(self):
-        self.window = None
+        pass
 
-    def run(self, ):
+    def get_entity(self, entity_type: str):
         pass
 
